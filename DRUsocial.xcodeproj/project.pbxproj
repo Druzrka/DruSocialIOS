@@ -7,24 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5F9C54920643B9400906E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9C54820643B9400906E24 /* AppDelegate.swift */; };
-		A5F9C54B20643B9400906E24 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9C54A20643B9400906E24 /* SignInVC.swift */; };
-		A5F9C54E20643B9400906E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F9C54C20643B9400906E24 /* Main.storyboard */; };
-		A5F9C55020643B9400906E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F9C54F20643B9400906E24 /* Assets.xcassets */; };
-		A5F9C55320643B9400906E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F9C55120643B9400906E24 /* LaunchScreen.storyboard */; };
-		A5F9C55B20643BB100906E24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5F9C55A20643BB100906E24 /* GoogleService-Info.plist */; };
+		A57436722069779E00D98299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57436672069779E00D98299 /* AppDelegate.swift */; };
+		A57436732069779E00D98299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57436682069779E00D98299 /* Assets.xcassets */; };
+		A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57436692069779E00D98299 /* LaunchScreen.storyboard */; };
+		A57436752069779E00D98299 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A574366B2069779E00D98299 /* Authorization.storyboard */; };
+		A57436762069779E00D98299 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366E2069779E00D98299 /* GoogleService-Info.plist */; };
+		A57436772069779E00D98299 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366F2069779E00D98299 /* Info.plist */; };
+		A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A582740620697D0500AF2684 /* Default-568h@2x.png */; };
 		F2B8AAEA71F6E8F02C56D424 /* Pods_SocialNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5F9C54520643B9400906E24 /* SocialNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5F9C54820643B9400906E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5F9C54A20643B9400906E24 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
-		A5F9C54D20643B9400906E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5F9C54F20643B9400906E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5F9C55220643B9400906E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5F9C55420643B9400906E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5F9C55A20643BB100906E24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A57436672069779E00D98299 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A57436682069779E00D98299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DRUSocial/Assets.xcassets; sourceTree = "<group>"; };
+		A574366A2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A574366C2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
+		A574366E2069779E00D98299 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A574366F2069779E00D98299 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DRUSocial/Info.plist; sourceTree = "<group>"; };
+		A582740620697D0500AF2684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5F9C54520643B9400906E24 /* DRUsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRUsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.release.xcconfig"; sourceTree = "<group>"; };
 		CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.debug.xcconfig"; sourceTree = "<group>"; };
 		E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,10 +43,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57436662069779E00D98299 /* DRUsocial */ = {
+			isa = PBXGroup;
+			children = (
+				A57436702069779E00D98299 /* Model */,
+				A57436712069779E00D98299 /* View */,
+				A574366D2069779E00D98299 /* Controller */,
+				A57436672069779E00D98299 /* AppDelegate.swift */,
+				A57436682069779E00D98299 /* Assets.xcassets */,
+				A574366B2069779E00D98299 /* Authorization.storyboard */,
+				A57436692069779E00D98299 /* LaunchScreen.storyboard */,
+				A574366E2069779E00D98299 /* GoogleService-Info.plist */,
+				A574366F2069779E00D98299 /* Info.plist */,
+			);
+			path = DRUsocial;
+			sourceTree = "<group>";
+		};
+		A574366D2069779E00D98299 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A57436702069779E00D98299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A57436712069779E00D98299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A5F9C53C20643B9400906E24 = {
 			isa = PBXGroup;
 			children = (
-				A5F9C54720643B9400906E24 /* SocialNet */,
+				A582740620697D0500AF2684 /* Default-568h@2x.png */,
+				A57436662069779E00D98299 /* DRUsocial */,
 				A5F9C54620643B9400906E24 /* Products */,
 				EA9FEBBE3514C8D60368E1A6 /* Pods */,
 				EA691130DEA73291E21BF49B /* Frameworks */,
@@ -55,47 +94,9 @@
 		A5F9C54620643B9400906E24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5F9C54520643B9400906E24 /* SocialNet.app */,
+				A5F9C54520643B9400906E24 /* DRUsocial.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A5F9C54720643B9400906E24 /* SocialNet */ = {
-			isa = PBXGroup;
-			children = (
-				A5F9C55E20643D2900906E24 /* Model */,
-				A5F9C55D20643D2200906E24 /* View */,
-				A5F9C55C20643D1B00906E24 /* Controller */,
-				A5F9C54820643B9400906E24 /* AppDelegate.swift */,
-				A5F9C54C20643B9400906E24 /* Main.storyboard */,
-				A5F9C54F20643B9400906E24 /* Assets.xcassets */,
-				A5F9C55120643B9400906E24 /* LaunchScreen.storyboard */,
-				A5F9C55420643B9400906E24 /* Info.plist */,
-				A5F9C55A20643BB100906E24 /* GoogleService-Info.plist */,
-			);
-			path = SocialNet;
-			sourceTree = "<group>";
-		};
-		A5F9C55C20643D1B00906E24 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		A5F9C55D20643D2200906E24 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A5F9C54A20643B9400906E24 /* SignInVC.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A5F9C55E20643D2900906E24 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		EA691130DEA73291E21BF49B /* Frameworks */ = {
@@ -118,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5F9C54420643B9400906E24 /* SocialNet */ = {
+		A5F9C54420643B9400906E24 /* DRUsocial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "SocialNet" */;
+			buildConfigurationList = A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "DRUsocial" */;
 			buildPhases = (
 				EA6B2D6244F791454F2EE9D3 /* [CP] Check Pods Manifest.lock */,
 				A5F9C54120643B9400906E24 /* Sources */,
@@ -133,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = SocialNet;
+			name = DRUsocial;
 			productName = SocialNet;
-			productReference = A5F9C54520643B9400906E24 /* SocialNet.app */;
+			productReference = A5F9C54520643B9400906E24 /* DRUsocial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,7 +155,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "SocialNet" */;
+			buildConfigurationList = A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "DRUsocial" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,7 +168,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5F9C54420643B9400906E24 /* SocialNet */,
+				A5F9C54420643B9400906E24 /* DRUsocial */,
 			);
 		};
 /* End PBXProject section */
@@ -177,10 +178,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F9C55320643B9400906E24 /* LaunchScreen.storyboard in Resources */,
-				A5F9C55B20643BB100906E24 /* GoogleService-Info.plist in Resources */,
-				A5F9C55020643B9400906E24 /* Assets.xcassets in Resources */,
-				A5F9C54E20643B9400906E24 /* Main.storyboard in Resources */,
+				A57436752069779E00D98299 /* Authorization.storyboard in Resources */,
+				A57436762069779E00D98299 /* GoogleService-Info.plist in Resources */,
+				A57436732069779E00D98299 /* Assets.xcassets in Resources */,
+				A57436772069779E00D98299 /* Info.plist in Resources */,
+				A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */,
+				A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,28 +254,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5F9C54B20643B9400906E24 /* SignInVC.swift in Sources */,
-				A5F9C54920643B9400906E24 /* AppDelegate.swift in Sources */,
+				A57436722069779E00D98299 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5F9C54C20643B9400906E24 /* Main.storyboard */ = {
+		A57436692069779E00D98299 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5F9C54D20643B9400906E24 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5F9C55120643B9400906E24 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5F9C55220643B9400906E24 /* Base */,
+				A574366A2069779E00D98299 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A574366B2069779E00D98299 /* Authorization.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A574366C2069779E00D98299 /* Base */,
+			);
+			name = Authorization.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -326,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -377,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -392,9 +394,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E7AZW33UG9;
-				INFOPLIST_FILE = SocialNet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DRUSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.SocialNet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.DRUsocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,9 +411,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E7AZW33UG9;
-				INFOPLIST_FILE = SocialNet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DRUSocial/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.SocialNet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Zakhar.DRUsocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,7 +424,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "SocialNet" */ = {
+		A5F9C54020643B9400906E24 /* Build configuration list for PBXProject "DRUsocial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5F9C55520643B9400906E24 /* Debug */,
@@ -429,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "SocialNet" */ = {
+		A5F9C55720643B9400906E24 /* Build configuration list for PBXNativeTarget "DRUsocial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5F9C55820643B9400906E24 /* Debug */,
