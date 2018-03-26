@@ -14,6 +14,7 @@
 		A57436762069779E00D98299 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366E2069779E00D98299 /* GoogleService-Info.plist */; };
 		A57436772069779E00D98299 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366F2069779E00D98299 /* Info.plist */; };
 		A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A582740620697D0500AF2684 /* Default-568h@2x.png */; };
+		A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5827408206981E500AF2684 /* AuthorizationViewController.swift */; };
 		F2B8AAEA71F6E8F02C56D424 /* Pods_SocialNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		A574366E2069779E00D98299 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A574366F2069779E00D98299 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DRUSocial/Info.plist; sourceTree = "<group>"; };
 		A582740620697D0500AF2684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5827408206981E500AF2684 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
 		A5F9C54520643B9400906E24 /* DRUsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRUsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.release.xcconfig"; sourceTree = "<group>"; };
 		CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		A574366D2069779E00D98299 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				A5827408206981E500AF2684 /* AuthorizationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */,
 				A57436722069779E00D98299 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

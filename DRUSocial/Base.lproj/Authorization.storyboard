@@ -18,10 +18,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Sign InVC-->
+        <!--Authorization View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SignInVC" customModule="SocialNet" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AuthorizationViewController" customModule="DRUsocial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,8 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a sign in method" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AH1-5D-2PI">
-                                <rect key="frame" x="0.0" y="168" width="375" height="23.5"/>
+                                <rect key="frame" x="0.0" y="200" width="375" height="23.5"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -89,31 +90,43 @@
                                     <constraint firstItem="lZg-dj-J3E" firstAttribute="leading" secondItem="YYV-IA-05q" secondAttribute="trailing" constant="4" id="pnk-yv-Y4b"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookLogo" translatesAutoresizingMaskIntoConstraints="NO" id="RsD-Qw-MYt">
-                                <rect key="frame" x="0.0" y="202" width="375" height="150"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="150" id="KdC-qH-x8w"/>
-                                </constraints>
-                            </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email adress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p5c-7y-qKr">
-                                <rect key="frame" x="24" y="368" width="327" height="30"/>
+                                <rect key="frame" x="24" y="373.5" width="327" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="TQ8-GI-1vT"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gx1-5z-GRU">
-                                <rect key="frame" x="24" y="406" width="327" height="30"/>
+                                <rect key="frame" x="24" y="421.5" width="327" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5ua-qa-Lee"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1g-G4-gsM">
-                                <rect key="frame" x="24" y="452" width="327" height="36"/>
+                                <rect key="frame" x="24" y="477.5" width="327" height="40"/>
                                 <color key="backgroundColor" red="0.93725490196078431" green="0.42352941176470588" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gvW-xm-8Pf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <state key="normal" title="Sign In">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6h-Jy-hBm">
+                                <rect key="frame" x="112" y="223.5" width="150" height="150"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="HZ5-tG-t7c"/>
+                                    <constraint firstAttribute="width" constant="150" id="Nq0-ug-4Ek"/>
+                                </constraints>
+                                <state key="normal" image="logo-facebook"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -122,20 +135,19 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p5c-7y-qKr" secondAttribute="trailing" constant="24" id="4JD-5c-Y3f"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t1g-G4-gsM" secondAttribute="trailing" constant="24" id="5Xw-uU-9ZX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gx1-5z-GRU" secondAttribute="trailing" constant="24" id="Cou-43-Jj6"/>
-                            <constraint firstItem="RsD-Qw-MYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="EKV-Gl-cd0"/>
                             <constraint firstItem="u6q-7J-QhG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Frq-bJ-rpS"/>
+                            <constraint firstItem="p5c-7y-qKr" firstAttribute="top" secondItem="G6h-Jy-hBm" secondAttribute="bottom" id="H4g-yU-0PB"/>
+                            <constraint firstItem="G6h-Jy-hBm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HKe-t0-jVU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AH1-5D-2PI" secondAttribute="trailing" id="Izr-Kd-b5s"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RsD-Qw-MYt" secondAttribute="trailing" id="JG8-sw-ntx"/>
-                            <constraint firstItem="AH1-5D-2PI" firstAttribute="top" secondItem="u6q-7J-QhG" secondAttribute="bottom" constant="8" id="JTR-JY-aZe"/>
+                            <constraint firstItem="AH1-5D-2PI" firstAttribute="top" secondItem="u6q-7J-QhG" secondAttribute="bottom" constant="40" id="JTR-JY-aZe"/>
                             <constraint firstItem="u6q-7J-QhG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KT5-he-jJW"/>
                             <constraint firstItem="u6q-7J-QhG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bjq-vV-tst"/>
                             <constraint firstItem="AH1-5D-2PI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ccQ-hN-kSn"/>
-                            <constraint firstItem="RsD-Qw-MYt" firstAttribute="top" secondItem="AH1-5D-2PI" secondAttribute="bottom" constant="10" id="d8S-ez-2gq"/>
                             <constraint firstItem="qfz-Yd-tma" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dTV-mE-3Df"/>
                             <constraint firstItem="t1g-G4-gsM" firstAttribute="top" secondItem="gx1-5z-GRU" secondAttribute="bottom" constant="16" id="g8b-7o-mIM"/>
                             <constraint firstItem="t1g-G4-gsM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="m8H-aw-CXV"/>
-                            <constraint firstItem="p5c-7y-qKr" firstAttribute="top" secondItem="RsD-Qw-MYt" secondAttribute="bottom" constant="16" id="n7c-ib-8wK"/>
                             <constraint firstItem="gx1-5z-GRU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="nVh-yn-uuP"/>
+                            <constraint firstItem="G6h-Jy-hBm" firstAttribute="top" secondItem="AH1-5D-2PI" secondAttribute="bottom" id="sMo-z9-B4F"/>
                             <constraint firstItem="qfz-Yd-tma" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="thX-19-LqZ"/>
                             <constraint firstItem="p5c-7y-qKr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="zEB-oX-Xi4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qfz-Yd-tma" secondAttribute="bottom" id="zxU-uU-T80"/>
@@ -149,7 +161,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebookLogo" width="256" height="256"/>
+        <image name="logo-facebook" width="256" height="256"/>
         <image name="logoImage" width="128" height="128"/>
     </resources>
 </document>
