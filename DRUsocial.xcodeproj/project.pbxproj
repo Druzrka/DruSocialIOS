@@ -7,30 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13FAD49CC4DA44D6DDE14A33 /* Pods_DRUsocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */; };
+		A539BD6620BFD31900E6A452 /* ViewWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */; };
+		A539BD6820BFDE2500E6A452 /* CIrcularImageWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */; };
+		A539BD6A20BFDF8900E6A452 /* FieldWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */; };
+		A539BD6C20BFE0B100E6A452 /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */; };
+		A539BD7020BFF99600E6A452 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */; };
+		A539BD7220BFFB1500E6A452 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7120BFFB1500E6A452 /* Constants.swift */; };
+		A539BD7620BFFBDD00E6A452 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */; };
+		A539BD7820BFFC0E00E6A452 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */; };
+		A539BD7F20C0697A00E6A452 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A539BD7E20C0697A00E6A452 /* DataService.swift */; };
 		A57436722069779E00D98299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57436672069779E00D98299 /* AppDelegate.swift */; };
 		A57436732069779E00D98299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57436682069779E00D98299 /* Assets.xcassets */; };
 		A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57436692069779E00D98299 /* LaunchScreen.storyboard */; };
 		A57436752069779E00D98299 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A574366B2069779E00D98299 /* Authorization.storyboard */; };
-		A57436762069779E00D98299 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366E2069779E00D98299 /* GoogleService-Info.plist */; };
-		A57436772069779E00D98299 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A574366F2069779E00D98299 /* Info.plist */; };
 		A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A582740620697D0500AF2684 /* Default-568h@2x.png */; };
 		A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5827408206981E500AF2684 /* AuthorizationViewController.swift */; };
-		F2B8AAEA71F6E8F02C56D424 /* Pods_SocialNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */; };
+		A5B6930C209F431F00954477 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B6930B209F431F00954477 /* Feed.storyboard */; };
+		A5B6930E209F434200954477 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B6930D209F434200954477 /* FeedViewController.swift */; };
+		A5BF35AF20C1650400618F1A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BF35AE20C1650400618F1A /* Post.swift */; };
+		A5D0E2AE209E0DC1004A1672 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRUsocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial.debug.xcconfig"; sourceTree = "<group>"; };
+		588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRUsocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial.release.xcconfig"; sourceTree = "<group>"; };
+		A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewWithShadow.swift; path = DRUsocial/View/Custom/ViewWithShadow.swift; sourceTree = SOURCE_ROOT; };
+		A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIrcularImageWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
+		A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PostTableViewCell.swift; path = DRUSocial/View/Cells/PostTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7120BFFB1500E6A452 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = DRUSocial/Constants.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = DRUSocial/Extenstions/UIViewExtension.swift; sourceTree = SOURCE_ROOT; };
+		A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		A539BD7E20C0697A00E6A452 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = DRUSocial/Services/DataService.swift; sourceTree = SOURCE_ROOT; };
 		A57436672069779E00D98299 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A57436682069779E00D98299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DRUSocial/Assets.xcassets; sourceTree = "<group>"; };
 		A574366A2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A574366C2069779E00D98299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
-		A574366E2069779E00D98299 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A574366F2069779E00D98299 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DRUSocial/Info.plist; sourceTree = "<group>"; };
 		A582740620697D0500AF2684 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A5827408206981E500AF2684 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		A5B6930B209F431F00954477 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Feed.storyboard; path = DRUSocial/Storyboards/Feed.storyboard; sourceTree = SOURCE_ROOT; };
+		A5B6930D209F434200954477 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedViewController.swift; path = DRUSocial/Controller/FeedViewController.swift; sourceTree = SOURCE_ROOT; };
+		A5BF35AE20C1650400618F1A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = DRUSocial/Model/Post.swift; sourceTree = SOURCE_ROOT; };
+		A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A5F9C54520643B9400906E24 /* DRUsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRUsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.release.xcconfig"; sourceTree = "<group>"; };
 		CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet.debug.xcconfig"; sourceTree = "<group>"; };
 		E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRUsocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,25 +64,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2B8AAEA71F6E8F02C56D424 /* Pods_SocialNet.framework in Frameworks */,
+				13FAD49CC4DA44D6DDE14A33 /* Pods_DRUsocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A539BD6D20BFF96000E6A452 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD6F20BFF99600E6A452 /* PostTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A539BD6E20BFF97300E6A452 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD6520BFD31900E6A452 /* ViewWithShadow.swift */,
+				A539BD6720BFDE2500E6A452 /* CIrcularImageWithShadow.swift */,
+				A539BD6920BFDF8900E6A452 /* FieldWithShadow.swift */,
+				A539BD6B20BFE0B100E6A452 /* ButtonWithShadow.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A539BD7320BFFBB500E6A452 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A539BD7420BFFBBE00E6A452 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD7520BFFBDD00E6A452 /* UIViewExtension.swift */,
+				A539BD7720BFFC0E00E6A452 /* UIImageViewExtension.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		A539BD7D20C0691B00E6A452 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A539BD7E20C0697A00E6A452 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		A57436662069779E00D98299 /* DRUsocial */ = {
 			isa = PBXGroup;
 			children = (
 				A57436702069779E00D98299 /* Model */,
 				A57436712069779E00D98299 /* View */,
 				A574366D2069779E00D98299 /* Controller */,
+				A539BD7D20C0691B00E6A452 /* Services */,
+				A5B6930A209F42FB00954477 /* Storyboards */,
+				A539BD7420BFFBBE00E6A452 /* Extenstions */,
+				A539BD7320BFFBB500E6A452 /* Protocols */,
 				A57436672069779E00D98299 /* AppDelegate.swift */,
 				A57436682069779E00D98299 /* Assets.xcassets */,
-				A574366B2069779E00D98299 /* Authorization.storyboard */,
-				A57436692069779E00D98299 /* LaunchScreen.storyboard */,
-				A574366E2069779E00D98299 /* GoogleService-Info.plist */,
+				A5D0E2AD209E0DC1004A1672 /* GoogleService-Info.plist */,
 				A574366F2069779E00D98299 /* Info.plist */,
+				A539BD7120BFFB1500E6A452 /* Constants.swift */,
 			);
 			path = DRUsocial;
 			sourceTree = "<group>";
@@ -65,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				A5827408206981E500AF2684 /* AuthorizationViewController.swift */,
+				A5B6930D209F434200954477 /* FeedViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -72,6 +145,7 @@
 		A57436702069779E00D98299 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A5BF35AE20C1650400618F1A /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -79,8 +153,20 @@
 		A57436712069779E00D98299 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A539BD6E20BFF97300E6A452 /* Custom */,
+				A539BD6D20BFF96000E6A452 /* Cells */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A5B6930A209F42FB00954477 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A57436692069779E00D98299 /* LaunchScreen.storyboard */,
+				A574366B2069779E00D98299 /* Authorization.storyboard */,
+				A5B6930B209F431F00954477 /* Feed.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		A5F9C53C20643B9400906E24 = {
@@ -106,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				E2878CC2EF2F6F772B227B0B /* Pods_SocialNet.framework */,
+				EBE4C22CB39C3535FC1B604A /* Pods_DRUsocial.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +202,8 @@
 			children = (
 				CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */,
 				BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */,
+				2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */,
+				588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -149,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Захар";
 				TargetAttributes = {
 					A5F9C54420643B9400906E24 = {
@@ -182,9 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A57436752069779E00D98299 /* Authorization.storyboard in Resources */,
-				A57436762069779E00D98299 /* GoogleService-Info.plist in Resources */,
 				A57436732069779E00D98299 /* Assets.xcassets in Resources */,
-				A57436772069779E00D98299 /* Info.plist in Resources */,
+				A5B6930C209F431F00954477 /* Feed.storyboard in Resources */,
+				A5D0E2AE209E0DC1004A1672 /* GoogleService-Info.plist in Resources */,
 				A57436742069779E00D98299 /* LaunchScreen.storyboard in Resources */,
 				A582740720697D0500AF2684 /* Default-568h@2x.png in Resources */,
 			);
@@ -204,7 +293,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SocialNet-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DRUsocial-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,22 +306,30 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB29A9B4B3600F442D4C5709 /* [CP] Copy Pods Resources */ = {
@@ -247,7 +344,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialNet/Pods-SocialNet-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DRUsocial/Pods-DRUsocial-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -257,8 +354,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A539BD7620BFFBDD00E6A452 /* UIViewExtension.swift in Sources */,
 				A5827409206981E500AF2684 /* AuthorizationViewController.swift in Sources */,
+				A539BD6620BFD31900E6A452 /* ViewWithShadow.swift in Sources */,
+				A539BD7F20C0697A00E6A452 /* DataService.swift in Sources */,
+				A5BF35AF20C1650400618F1A /* Post.swift in Sources */,
+				A539BD6A20BFDF8900E6A452 /* FieldWithShadow.swift in Sources */,
+				A539BD7020BFF99600E6A452 /* PostTableViewCell.swift in Sources */,
+				A539BD6820BFDE2500E6A452 /* CIrcularImageWithShadow.swift in Sources */,
+				A539BD7820BFFC0E00E6A452 /* UIImageViewExtension.swift in Sources */,
+				A539BD6C20BFE0B100E6A452 /* ButtonWithShadow.swift in Sources */,
+				A5B6930E209F434200954477 /* FeedViewController.swift in Sources */,
 				A57436722069779E00D98299 /* AppDelegate.swift in Sources */,
+				A539BD7220BFFB1500E6A452 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +406,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -305,6 +414,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -355,6 +465,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -362,6 +473,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -393,7 +505,7 @@
 		};
 		A5F9C55820643B9400906E24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFDCC050147636692A70D878 /* Pods-SocialNet.debug.xcconfig */;
+			baseConfigurationReference = 2CEEA6CAF1ED709F6696960E /* Pods-DRUsocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -410,7 +522,7 @@
 		};
 		A5F9C55920643B9400906E24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC7BB6E5713B21EE96F57C59 /* Pods-SocialNet.release.xcconfig */;
+			baseConfigurationReference = 588CD31E96CE6492F4697657 /* Pods-DRUsocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
